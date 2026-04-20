@@ -1,0 +1,91 @@
+/* Page */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #73c7d4;
+}
+
+/* Main container */
+.container {
+  text-align: center;
+  padding: 30px;
+}
+
+/* Heading */
+h1 {
+  color: #1e293b;
+  margin-bottom: 25px;
+}
+
+/* Card design */
+.card {
+  background: white;
+  margin: 15px auto;
+  padding: 20px;
+  width: 55%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+/* Inputs */
+input, select {
+  padding: 10px;
+  margin: 8px;
+  width: 220px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Button */
+button {
+  padding: 10px 18px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+/* Workout list */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #eef2ff;
+  margin: 6px;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+/* AI text */
+p {
+  color: #0f766e;
+  font-weight: 500;
+}
+
+.bmi-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.bmi-table th, .bmi-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.bmi-table th {
+  background: #2563eb;
+  color: white;
+}
